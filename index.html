@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Curriculum Vitae</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+	<link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="icon.png">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>  
+  <div class="cv animate-bottom">
+     <div class="cv_left">
+       <div class="cv_profile">
+         <img src="profile.jpg" alt="profile-img">
+       </div>
+       <div class="cv_content">
+         <div class="cv_item cv_info">
+           <div class="title">
+             <p class="bold">Thomas Felix</p>
+             <p class="regular" style="margin-top: 10px;">Institut Teknologi Sepuluh Nopember Surabaya</p>
+           </div>
+           <ul>
+             <li>
+               <div class="icon">
+                 <i class="fas fa-map-signs"></i>
+               </div>
+               <div class="data" style="font-size: 11px;">Keputih, Sukolilo, Surabaya</div>
+             </li>
+             <li>
+               <div class="icon">
+                 <i class="fas fa-envelope"></i>
+               </div>
+               <div class="data" style="font-size: 11px;">thomasfelixbrilliant@gmail.com</div>
+             </li>
+             <li>
+               <div class="icon">
+                 <i class="fab fa-linkedin"></i>
+               </div>
+               <div class="data" style="font-size: 11px;">linkedin.com/in/thomasfelix10/</div>
+             </li>
+             <li>
+              <div class="icon">
+                <i class="fab fa-line"></i>
+              </div>
+              <div class="data" style="font-size: 11px;">thomasfelix10</div>
+            </li>
+           </ul>
+         </div>
+         <div class="cv_item cv_skills">
+           <div class="title">
+             <p class="bold">Software Skills</p>
+           </div>
+           <ul>
+            <li>
+              <div class="skill_name" style="width: 200px">Microsoft Office (Word, Excel, Power Point)</div>
+            </li>
+            <li>
+              <div class="skill_progress">
+                <span style="width: 85%;"></span>
+              </div>
+              <div class="skill_percent">85%</div>
+            </li>
+            <li>
+              <div class="skill_name" style="width: 200px">Wondershare Filmora</div>
+            </li>
+            <li>
+              <div class="skill_progress">
+                <span style="width: 70%;"></span>
+              </div>
+              <div class="skill_percent">70%</div>
+            </li>
+            <li>
+              <div class="skill_name" style="width: 200px">Text Editor (Visual Studio Code, Sublime Text, etc.)</div>
+            </li>
+            <li>
+              <div class="skill_progress">
+                <span style="width: 85%;"></span>
+              </div>
+              <div class="skill_percent">85%</div>
+            </li>
+            <li>
+            <li>
+              <div class="skill_name" style="width: 150px">Figma</div>
+            </li>
+            <li>
+              <div class="skill_progress">
+                <span style="width: 70%;"></span>
+              </div>
+              <div class="skill_percent">75%</div>
+            </li>
+           </ul>
+         </div>
+       </div>
+    </div>
+    <div class="cv_right">
+      <div class="cv_item cv_about">
+          <div class="title">
+             <p class="bold">About Me</p>
+           </div>
+          <button class="btn btn-secondary btn-icon-split" onclick="typewriter()" style="margin-bottom: 20px;">Click here!</button>
+          <p id="typewriter" style="text-align: justify; color: #473f3e;"></p>
+
+          <script>
+          var i = 0;
+          var text = 'I am dedicated, organized, and methodical individual. I am able to work well both in a team environment as well as using own initiative. I am eager to be challenged in order to grow and further improve my skills.  But, I am incredibly introverted, which makes me wary of sharing my ideas in a group setting or speaking up during team meetings. I feel that I had good intentions, I just wasnt always comfortable speaking up. After my team didn’t meet expectations on two consecutive projects, I decided to start making changes to get more familiar with sharing my ideas for the benefit of my team.';
+          var speed = 30;
+
+          function typewriter() {
+            if (i < text.length) {
+              document.getElementById("typewriter").innerHTML += text.charAt(i);
+              i++;
+              setTimeout(typewriter, speed);
+            }
+          }
+          </script>
+
+      </div>
+      <div class="cv_item cv_organization">
+          <div class="title">
+             <p class="bold">Organization Experience</p>
+           </div>
+          <ul>
+          	  <li>
+                <div class="date">2020</div>
+                <div class="info">
+                    <p class="semi-bold">GERIGI ITS 2020</p> 
+                    <p>- Member of secretarial division</p>
+                    <br/>
+                </div>
+              </li>
+              <li>
+                <div class="date">2020</div>
+                <div class="info">
+                    <p class="semi-bold">3C (Catholic Community Cup) KMK ITS</p> 
+                    <p>- Member of secretarial division</p>
+                    </br>
+                  </div>
+              </li>
+              <li>
+                <div class="date">2020</div> 
+                <div class="info">
+                  <p class="semi-bold">New Members of ITS Choir Concert "Un Inizio"</p> 
+                  <p>- Member of equipment division</p>
+                  <p>- Performer</p>
+                </div>
+              </li>
+              <li>
+                <div class="date">2020</div>
+                <div class="info">
+                    <p class="semi-bold">Tryout TRIGONOMETRY 1.0 FORRBITS (Forum Bocah Bojonegoro ITS) x ILITS (INI LHO ITS)</p> 
+                    <p>- Coordinator of consumption division.</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      <div class="cv_item cv_education">
+        <div class="title">
+             <p class="bold">Education</p>
+           </div>
+        <ul>
+          <li>
+            <div class="date">2019 - present</div> 
+            <div class="info">
+              <p class="semi-bold">Institut Teknologi Sepuluh Nopember Surabaya</p> 
+              <p>Faculty of Intelligent Electrical and Informatics Technology, Informatics</p>
+            </div>
+          </li>
+          <li>
+            <div class="date">2016 - 2019</div>
+            <div class="info">
+                <p class="semi-bold">SMA Negeri 1 Bojonegoro</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
